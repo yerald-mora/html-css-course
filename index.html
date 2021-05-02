@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-</body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body style="padding: 5rem">
+    <div class="card testimonial">
+
+      <div class="grid grid--1x2">
+
+        <div class="testimonial__image">
+
+            <img src="images/testimonial.jpg" alt="A happy, smiling customer" />
+
+            <span class="icon-container icon-container-accent">
+                <svg class="icon--small icon--white">
+                    <use xlink:href="images/sprite.svg#quotes"></use>
+                </svg>
+            </span>
+
+        </div>
+
+        <blockquote class="quote">
+            <p class="quote__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae quam facere ex architecto quas pariatur reiciendis repellendus provident voluptatem.
+            </p>
+            <footer>
+                <div class="media">
+                    <div class="media__image">
+                         <svg class="icon icon--primary">
+                             <use xlink:href="images/sprite.svg#line"></use>
+                         </svg>   
+                    </div>
+                     <div class="media__body">
+                         <h3 class="media__title quote__author">Jhon Smith</h3>
+                         <p class="quote__company">ABC Company</p>
+                     </div>
+                </div>
+            </footer>
+        </blockquote>
+
+      </div>
+    </div>
+  </body>
 </html>
